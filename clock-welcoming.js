@@ -33,6 +33,11 @@ function tarihSaat() {
             dayName = "Pazar";
             break;           
      }
+
+     h = h < 10 ? "0" + h : h; // two-digits için kullandık burayı
+     m = m < 10 ? "0" + m : m;
+     s = s < 10 ? "0" + s : s;
+     
      var timer = ` ${h} : ${m} : ${s}  - ${dayName} `;
     document.querySelector('#zaman').innerHTML = timer ; //zaman id'li elemente yazdırır 
 
