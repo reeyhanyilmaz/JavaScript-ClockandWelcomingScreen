@@ -4,11 +4,10 @@
     color: rgb(248, 145, 104);
     font-size: 30px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
 }
 
 body {
-    background: linear-gradient(35deg, #ccffff, #ffcccc, rgb(204, 204, 255));
+    background: fixed linear-gradient(35deg, #ccffff, #ffcccc, rgb(204, 204, 255));
 }
 
 .container{
